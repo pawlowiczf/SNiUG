@@ -1,9 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "Bash(python -c \"import json; nb=json.load\\(open\\('lab07/lab7_v2_with_outputs.ipynb'\\)\\); [print\\(f'=== Cell {i} ===\\\\n' + ''.join\\(c['source']\\)\\) for i, c in enumerate\\(nb['cells']\\) if c['cell_type']=='code']\")",
-      "Bash(python -c ' *)",
-      "Bash(python -c \"import json; nb=json.load\\(open\\(r'c:\\\\Users\\\\Filip\\\\Desktop\\\\UMISI\\\\SNiUG\\\\lab09\\\\lab9_empty.ipynb',encoding='utf-8'\\)\\); [print\\('---',i,'---'\\); print\\(''.join\\(c['source']\\)\\) for i,c in enumerate\\(nb['cells']\\) if c['cell_type']=='code' and any\\(k in ''.join\\(c['source']\\) for k in ['def forward_pass','def train_mlp','def mean_network']\\)]\")"
-    ]
-  }
-}
